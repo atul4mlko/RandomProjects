@@ -45,7 +45,7 @@ public class Palindrome {
 		Palindrome palin = new Palindrome();
 		int[] intArray = {1,2,3,4,3,2,1};
 		System.out.println("Is given integer array a palindrome ? " + palin.isPalindrome(intArray));
-		char[] charArray = {1,2,3,4,3,2,1};
+		char[] charArray = {'a','b','b','a'};
 		System.out.println("Is given char array a palindrome ? " + palin.isPalindrome(charArray));
 		int number = 6474;
 		System.out.println("Is " + number + " a palindrome ? " + palin.isPalindrome(number));
